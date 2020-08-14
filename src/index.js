@@ -2,24 +2,18 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const routes = require("./routes");
-
-require("dotenv").config({
-  path: process.env.NODE_ENV === "test" ? ".env.test" : "",
-});
+require("dotenv/config");
 
 const app = express();
 
-mongoose.connect(
-  process.env.SECRET_TEST ? process.env.SECRET_TEST : process.env.S3_SECRET,
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-  }
-);
+mongoose.connect(process.env.SECRET_BD, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+});
 
 const corsOptions = {
-  origin: "http://spotflix.tk/",
+  origin: process.env.SECRET_ORIGIN,
   optionsSuccessStatus: 200,
 };
 app.use(cors());

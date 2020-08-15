@@ -34,11 +34,10 @@
   <a href="#memo-license">License</a>
 </p>
 
+## :link: Links
 
-<p align="center">
- <img src="https://i.ibb.co/Jv0pFYs/Sem-t-tulo.png">
-</p>
-Link: http://spotflix.tk/
+-  [Site](http://spotflix.tk/)
+-  [Video](https://drive.google.com/file/d/1Ey4Rj4bZckln52HHouvDH3cbgxzsDvmN/preview)
 
 ## :rocket: Technologies
 

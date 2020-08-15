@@ -34,6 +34,10 @@
   <a href="#memo-license">License</a>
 </p>
 
+<p align="center">
+  <img src="https://i.ibb.co/Jv0pFYs/Sem-t-tulo.png">
+</p>
+
 ## :link: Links
 
 -  [Site](http://spotflix.tk/)

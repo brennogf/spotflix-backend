@@ -1,9 +1,3 @@
-<h1 align="center">
-    <img alt="Imersão React" src="https://res.cloudinary.com/practicaldev/image/fetch/s--VkKYeMzv--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.imgur.com/c4w638X.png" width="480" height="360" />
-    <br>
-    Spotflix
-</h1>
-
 <h4 align="center">
   Video Sharing based on the Netflix App.
 </h4>
@@ -45,7 +39,7 @@
 
 ## :rocket: Technologies
 
-This project was developed at the [Alura Imersão React](https://www.alura.com.br/imersao-react) with the following technologies:
+This project was developed with the following technologies:
 
 -  [NodeJS](https://nodejs.org/en/)
 -  [Express](https://expressjs.com/pt-br/)
